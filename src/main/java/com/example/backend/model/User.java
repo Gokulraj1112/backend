@@ -11,7 +11,7 @@ public class User {
 
     private String name;
     private String email;
-    private String phone;
+    private String phoneNumber;
 
     @Column(columnDefinition = "TEXT")
     private String message;
@@ -42,11 +42,11 @@ public class User {
     }
 
     public String getPhone() {
-        return phone;
+        return phoneNumber;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setPhone(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getMessage() {
